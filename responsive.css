@@ -1,0 +1,62 @@
+@media all and (max-width: 1040px){
+  .contents-welcome-msg h1{
+    font-size: 70px;
+  }
+
+  .contents-welcome-msg h2{
+    font-size: 30px;
+  }
+
+  .lessons-item{
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 670px){
+  .contents-welcome-msg h1{
+    font-size: 35px;
+  }
+
+  .contents-welcome-msg h2{
+    font-size: 20px;
+  }
+
+  .lessons-item{
+    width: 100%;
+  }
+
+  .header-list-ul{
+    display:none;
+  }
+
+  .menu-icon{
+    color: #ffffff;
+    display: block;
+    float: right;
+    font-size: 32px;
+  }
+
+  .footer{
+    
+  }
+
+  .footer-logo, .footer-list{
+    text-align: center;
+  }
+  
+  .footer-logo{
+    /* border: 1px solid #000000; */
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-list{
+    /* border: 1px solid #000000; */
+    float: none;
+    width: 100%;
+  }
+  .contact-us input,.contact-us textarea{
+    width: 100%;
+  }
+}

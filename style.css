@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.headings{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.headings h2{
+  font-size: 28px;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header{
+  padding: 20px;
+  background-color: #26d0c9;
+  color: #ffffff;
+  height: 90px;
+  width: 100%;
+}
+
+.header-logo{
+  float: left;
+  margin-right: 60px;
+}
+
+.header-logo a{
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.header-list-ul li{
+  padding-top: 13px;
+  margin-right: 40px;
+  float: left;
+}
+
+.menu-icon{
+  display: none;
+  padding: 2.2px 0;
+}
+
+.contents-welcome-msg{
+  padding: 100px 0 110px 0;
+  /* width: 100%; */
+}
+
+.contents-welcome-msg h1{
+  font-size: 90px;
+}
+
+.contents-welcome-msg span{
+  color: #ff0000;
+}
+
+.contents-welcome-msg h2{
+  font-size: 40px;
+}
+
+.lesson{
+  padding-bottom: 80px;
+}
+
+.lessons{
+  text-align: center;
+}
+
+.lessons-item{
+  /* border: 1px solid #000000; */
+  padding-right: 5%;
+  float: left;
+  width: 25%;
+}
+
+.lessons-item p{
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.contact-us{
+  padding-bottom: 80px;
+}
+
+.contact-us input,.contact-us textarea{
+  width: 400px;
+  border: 1px solid #dee7ec;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.contact-us-forms-sends{
+  color: #889eab;
+  background-color: #dee7ec;
+}
+
+footer{
+  width: 100%;
+  background-color: #2f5167;
+  color: #ffffff;
+  padding: 50px 20px;
+  
+}
+
+.footer-logo{
+  font-size: 32px;
+  float: left;
+}
+
+.footer-list{
+  float: right;
+}
+
+.footer-list li{
+  margin-bottom: 20px;
+}
+
+.clear{
+  clear: both;
+}
+
+.clear-lesson{
+  clear: left;
+}
+
